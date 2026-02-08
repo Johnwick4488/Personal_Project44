@@ -2,20 +2,54 @@
 <html>
 <head>
     <title>For My Love ❤️</title>
+    <style>
+        body {
+            margin: 0;
+            text-align: center;
+            font-family: Arial, sans-serif;
+            color: white;
+            background-image: url('https://images.unsplash.com/photo-1518199266791-5375a83190b7');
+            background-size: cover;
+            background-position: center;
+        }
+
+        .box {
+            margin-top: 20%;
+            background: rgba(0,0,0,0.6);
+            padding: 30px;
+            border-radius: 15px;
+            display: inline-block;
+        }
+
+        button {
+            padding: 15px 25px;
+            font-size: 18px;
+            background: red;
+            color: white;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+            margin-top: 15px;
+        }
+    </style>
+
     <script>
         function showLove() {
-            alert("Yes, my love… I made this just for YOU ❤️ Happy Valentine's Day 💖");
+            alert("Happy Valentines day, I will be with you forever and ever ❤️");
+        }
+
+        function playSong() {
+            window.open("https://youtu.be/-BjZmE2gtdo?t=183", "_blank");
         }
     </script>
 </head>
-<body style="text-align:center; font-family:Arial; background-color:#ffe6f0;">
 
-    <h1>Hey Beautiful Love ❤️</h1>
-    <p>I have something to ask you...</p>
-
-    <button onclick="showLove()" style="padding:15px 25px; font-size:18px; background:red; color:white; border:none; border-radius:10px;">
-        Did you make it?
-    </button>
-
+<body>
+    <div class="box">
+        <h1>Hi My Love ❤️</h1>
+        <p>This moment reminds me of us...</p>
+        <button onclick="showLove()">Open My Heart 💘</button><br>
+        <button onclick="playSong()">🎵 Play Our Song</button>
+    </div>
 </body>
 </html>
